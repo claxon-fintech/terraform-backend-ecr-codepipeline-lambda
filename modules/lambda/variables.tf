@@ -1,4 +1,4 @@
-variable "lambda_image_uri" {
+variable "image_uri" {
 }
 variable "lambda_function_name" {}
 variable "rds_username" {}
