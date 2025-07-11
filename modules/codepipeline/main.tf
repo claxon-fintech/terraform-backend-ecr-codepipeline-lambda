@@ -1,4 +1,7 @@
+data "aws_caller_identity" "current" {}
+
 #  -------------------------------------- CodePipeline -----------------------------------------------------------
+
 resource "aws_codepipeline" "lambda_pipeline" {
   name     = "${var.lambda_function_name}-pipeline"
   role_arn = aws_iam_role.lambda_pipeline_role.arn
