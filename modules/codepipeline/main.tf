@@ -43,7 +43,7 @@ resource "aws_codepipeline" "lambda_pipeline" {
       version          = "1"
 
       configuration = {
-        ProjectName = aws_codebuild_project.lambda_build_project.name
+        ProjectName = var.codebuild_project_name
 
 
         EnvironmentVariables = jsonencode([
