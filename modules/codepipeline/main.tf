@@ -144,7 +144,7 @@ resource "aws_iam_role_policy" "allow_codestar_connection" {
       {
         Effect   = "Allow",
         Action   = ["codestar-connections:UseConnection"],
-        Resource = "arn:aws:codeconnections:eu-west-1:165194454526:connection/6595994d-ebbd-4737-83e5-2d8876fb8d0e"
+        Resource = var.github_oauth_token
       },
 
 
