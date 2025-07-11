@@ -5,3 +5,4 @@
 crash.log
 terraform.tfvars
 terraform.tfstate
+variables.tfvars
