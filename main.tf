@@ -30,7 +30,7 @@ module "lambda" {
   bucket_name = var.bucket_name
   access_token_expire_minutes = var.access_token_expire_minutes
   algorithm = var.algorithm
-  rds_username = var.rds_db_name
+  rds_username = var.rds_username
   rds_password = var.rds_password
   rds_hostname = var.rds_hostname
   rds_port = var.rds_port
