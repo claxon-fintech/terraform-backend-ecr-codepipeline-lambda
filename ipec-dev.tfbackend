@@ -1,0 +1,3 @@
+    bucket = "claxon-terraform-prod"
+    key    = "workspaces/projects/ipec-backend-dev/terraform.tfstate"
+    region = "eu-west-1"
