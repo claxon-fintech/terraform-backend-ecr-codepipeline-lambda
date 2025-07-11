@@ -10,11 +10,11 @@ terraform {
   }
 
   # Uncomment and configure for remote state storage
-  # backend "s3" {
-  #   bucket = "your-terraform-state-bucket"
-  #   key    = "terraform.tfstate"
-  #   region = "us-west-2"
-  # }
+  backend "s3" {
+    bucket = "claxon-terraform-prod"
+    key    = "workspaces/projects/ipec-frontend-dev/terraform.tfstate"
+    region = "eu-west-1"
+  }
 }
 
 # Configure the AWS Provider

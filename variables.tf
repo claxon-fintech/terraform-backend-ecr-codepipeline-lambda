@@ -33,6 +33,8 @@ variable "lambda_function_name" {
   description = "Name of the Lambda function"
 }
 
+
+
 variable "lambda_image_uri" {
   type        = string
   description = "URI of the Lambda container image"
